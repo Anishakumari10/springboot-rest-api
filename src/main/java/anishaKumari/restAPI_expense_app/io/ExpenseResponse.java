@@ -1,4 +1,4 @@
-package anishaKumari.restAPI_expense_app.response;
+package anishaKumari.restAPI_expense_app.io;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -31,4 +31,5 @@ public class ExpenseResponse {
 
     private Timestamp updatedAt;
 
-}
+    }
+
