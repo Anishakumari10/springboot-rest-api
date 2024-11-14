@@ -1,0 +1,10 @@
+INSERT INTO tbl_expenses (expense_id, name, category, note, amount, date, created_at, updated_at)
+VALUES 
+('exp123', 'Office Supplies', 'Stationery', 'Purchased pens and notebooks', 50.75, '2024-10-23', '2024-10-23 10:00:00', '2024-10-23 10:00:00');
+
+INSERT INTO tbl_expenses(expense_id, name, category, note, amount, date, created_at, updated_at)
+VALUES 
+('exp124', 'Travel Expenses', 'Transportation', 'Taxi fare for client meeting', 120.50, '2024-10-24', '2024-10-24 09:30:00', '2024-10-24 09:30:00');
+
+
+select * from tbl_expenses;
